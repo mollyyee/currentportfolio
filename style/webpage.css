@@ -1,0 +1,303 @@
+/*/*Skeleton*/
+
+body {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+a {
+	text-decoration: none;
+	color: #878182;
+}
+
+@media only screen 
+and (min-device-width : 500px)  {
+
+/*Header*/
+/*Header*/
+/*Header*/
+/*Header*/
+/*Header*/
+
+#header {
+	display: flex;
+	height: 15%;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left: 4%;
+	padding-right: 2%;
+}
+
+#nameicon {
+	left: 5%;
+	height: 100%;
+	width: 25%;
+}
+
+#emptyblock {
+	width: 23%;
+}
+
+#mollyicon {
+	height: 85px;
+}
+
+#navbar {
+	display: flex;
+	width: 45%;
+	height: 100%;
+	right: 0;
+	justify-content: center;
+}
+
+#workbtn, #aboutbtn, #resumebtn {
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	margin-right: 75px;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+#workbtn a, #aboutbtn a, #resumebtn a {
+	text-decoration: none;
+	color: black;
+}
+
+#workbtn:hover a, #aboutbtn:hover a, #resumebtn:hover a {
+	color: #e29589;
+	cursor: pointer;
+}
+
+#highlightbutton {
+	color: #e29589;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	margin-right: 75px;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+#button {
+	color: #e29589;
+}
+
+/*footer*//*footer*//*footer*//*footer*/
+/*footer*//*footer*//*footer*//*footer*/
+/*footer*//*footer*//*footer*//*footer*/
+/*footer*//*footer*//*footer*//*footer*/
+/*footer*//*footer*//*footer*//*footer*/
+/*footer*//*footer*//*footer*//*footer*/
+
+#footer {
+	height: 100px;
+	padding-bottom: 5%;
+	display: flex;
+	text-align: center;
+}
+
+#footbar {
+	display: flex;
+	margin: auto;
+	width: 70%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*Font*//*Font*//*Font*//*Font*/
+/*Font*//*Font*//*Font*//*Font*/
+/*Font*//*Font*//*Font*//*Font*/
+/*Font*//*Font*//*Font*//*Font*/
+
+.subtitle {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    letter-spacing: .1em;
+    line-height: 1em;
+}
+
+
+p, ul {
+	font-family: 'lato', sans-serif;
+	font-weight: 100;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    letter-spacing: .01em;
+}
+
+#listtitle {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	letter-spacing: .1em;
+}
+
+#emphasis {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+    font-size: 1.5em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    color: #607D8B;
+
+}
+
+
+
+
+#intro { 
+	top: 0%;
+	height: 40%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+#paddingintro { 
+	top: 0%;
+	height: 40%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	padding-bottom: 5%;
+}
+
+#container {
+	margin: auto;
+	top: 20%;
+}
+
+
+ #title {
+	margin: auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif; 
+	letter-spacing: 5px;
+	font-size: 80px;
+	z-index: 1;
+	color: #607D8B;
+	padding: .2em 0 .2em 0;
+ }
+
+#description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+ 	text-align: center;
+ 	padding: .2em 0 1em 0;
+ 	color: #607D8B;
+}
+
+#timeframe {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding: .2em 0 .2em 0;
+	letter-spacing: 5px;
+	color: #607D8B;
+}
+
+
+
+#container {
+	margin: auto;
+	top: 20%;
+}
+
+.margin {
+	margin-right: 17%;
+	margin-left: 17%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	float: top;
+	position: relative;
+	overflow: auto;
+}
+
+.aboutmargin {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#firstbox {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: -5%;
+	margin-bottom: -5%;
+}
+
+.box, .box2 {
+	padding: 5% 2% 5% 2%;
+}
+
+.box2 {
+	background-color: #fafbfb;
+}
+
+.boxwhy {
+	background-color: white;
+	padding: 5% 2% 5% 2%;
+
+}
+
+
+
+/*pic decoration*/
+
+#motivation, #hustleneeds {
+	width: 80%;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#longimage {
+	width: 100%;
+}
+
+#gif {
+	width: 33%;
+	padding: .2em 0 .2em 0;
+	flex-direction: row;
+	margin: auto;
+}
+
+#containgif {
+	display: flex;
+	margin: auto;
+}
+
+.blockimg {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.smallerblock {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.aboutblock {
+	padding-top: 3%;
+	padding-bottom: %;
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.longblock {
+	width: 90%;
+	display: flex;
+	margin: auto;
+}
+
+
