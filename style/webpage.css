@@ -21,12 +21,12 @@ a {
 
 #header {
 	display: flex;
-	height: 15%;
+	height: 85px;
 	width: 100%;
 	padding-top: 2%;
-	padding-bottom: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	z-index: 100;
 }
 
 #nameicon {
@@ -47,8 +47,6 @@ a {
 #navbar {
 	display: flex;
 	width: 45%;
-	height: 100%;
-	right: 0;
 	justify-content: center;
 }
 
@@ -127,11 +125,11 @@ a {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 2em;
     padding-top: .2em;
-    padding-bottom: .2em;
+    padding-bottom: 1em;
     letter-spacing: .1em;
     line-height: 1em;
     font-weight: 100;
-
+	color: #878182;
 }
 
 
@@ -218,9 +216,9 @@ p, ul {
 
 .boldedfontncpink {
 	font-family: 'Mukta Vaani', sans-serif;
-    font-size: 12px;
+    font-size: 2.5em;
     letter-spacing: 0em;
-    line-height: 2.5em;
+    line-height: 1em;
     font-weight: 600;
     color: #e29589;
 }
@@ -337,10 +335,11 @@ p, ul {
 }
 
 .aboutmargin1 {
+	margin-top: 85px;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-bottom: 5%;
-	padding-bottom: 5%;
+		margin-bottom: 5%;
+
 }
 
 #firstbox {
@@ -453,6 +452,12 @@ p, ul {
 	top: 20%;
 }
 
+#halfcolumnsnopaddingcenter {
+	width: 50%;
+	top: 0;
+	margin: auto;
+}
+
 .column34 {
 	width: 60%;
 }
@@ -562,12 +567,12 @@ a {
 
 #header {
 	display: flex;
-	height: 15%;
+	height: 85px;
 	width: 100%;
 	padding-top: 2%;
-	padding-bottom: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	z-index: 100;
 }
 
 #nameicon {
@@ -583,6 +588,14 @@ a {
 
 #mollyicon {
 	height: 70px;
+}
+
+
+.aboutmargin1 {
+	padding-top: 85px;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
 }
 
 #navbar {
@@ -672,7 +685,8 @@ a {
     letter-spacing: .1em;
     line-height: 1em;
     font-weight: 100;
-
+	color: #878182;
+	padding-bottom: 20px;
 }
 
 
@@ -1005,6 +1019,7 @@ p, ul {
 	width: 50%;
 	top: 20%;
 }
+
 
 .column34 {
 	width: 60%;
