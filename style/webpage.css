@@ -66,6 +66,19 @@ a {
 	z-index: 100;
 }
 
+#chimeheader {
+	top: 0;
+	position: relative;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
 #nameicon {
 	left: 5%;
 	height: 100%;
@@ -635,6 +648,20 @@ a {
 #header {
 	top: 0;
 	position: fixed;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
+
+#chimeheader {
+	top: 0;
+	position: relative;
 	display: flex;
 	height: 85px;
 	width: 100%;
@@ -1227,6 +1254,20 @@ a {
 	z-index: 100;
 }
 
+
+#chimeheader {
+	top: 0;
+	position: relative;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
 #nameicon {
 	left: 5%;
 	height: 100%;
@@ -1565,6 +1606,12 @@ p, ul {
 	padding: 2% 2% 2% 2%;
 }
 
+.bigbox {
+	display: flex;
+	top: 85px;
+	padding: 2% 2% 2% 2%;
+}
+
 .boxcp {
 	padding: 10% 2% 2% 2%;
 }
@@ -1821,6 +1868,20 @@ a {
 #header {
 	top: 0;
 	position: fixed;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
+
+#chimeheader {
+	top: 0;
+	position: relative;
 	display: flex;
 	height: 85px;
 	width: 100%;
@@ -2442,6 +2503,20 @@ a {
 	z-index: 100;
 }
 
+
+#chimeheader {
+	top: 0;
+	position: relative;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
 #nameicon {
 	left: 5%;
 	height: 100%;
@@ -3033,6 +3108,20 @@ a {
 	z-index: 100;
 }
 
+
+#chimeheader {
+	top: 0;
+	position: relative;
+	display: flex;
+	height: 85px;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	background-color: white;
+	z-index: 100;
+}
+
 #nameicon {
 	left: 5%;
 	height: 100%;
@@ -3565,7 +3654,4 @@ p, ul {
 	opacity: 0;
 }
 }
-
-
-
 
