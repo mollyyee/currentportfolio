@@ -1,26 +1,7 @@
 /*index blocking*/
 
-#header {
-	top: 0;
-	position: fixed;
-	display: flex;
-	width: 100%;
-	padding-left: 4%;
-	padding-right: 2%;
-	background-color: white;
-}
-
-#nameicon {
-	left: 5%;
-	height: 100%;
-	width: 20%;
-}
 
 
-#mollyicon {
-	height: 85px;
-	top: 0;
-}
 
 #navbar {
 	padding-left: 15%;

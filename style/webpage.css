@@ -53,14 +53,16 @@ a {
 /*Header*/
 
 
-
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
 
@@ -94,8 +96,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
@@ -632,12 +633,15 @@ a {
 /*Header*/
 
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
 
@@ -671,8 +675,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto;}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
@@ -1212,12 +1215,15 @@ a {
 /*Header*/
 
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
 
@@ -1264,8 +1270,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto;}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
@@ -1814,15 +1819,17 @@ a {
 /*Header*/
 
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
-
 #nameicon {
 	left: 5%;
 	height: 100%;
@@ -1860,8 +1867,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto;}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
@@ -2424,12 +2430,15 @@ a {
 /*Header*/
 
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
 
@@ -2479,8 +2488,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto;}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
@@ -3013,12 +3021,15 @@ a {
 /*Header*/
 
 #header {
+	top: 0;
+	position: fixed;
 	display: flex;
 	height: 85px;
 	width: 100%;
 	padding-top: 2%;
 	padding-left: 4%;
 	padding-right: 2%;
+	background-color: white;
 	z-index: 100;
 }
 
@@ -3070,8 +3081,7 @@ a {
 #specialbtn{
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
-	margin-right: 75px;
-	margin-top: 10px;}
+	margin: auto;}
 
 #workbtn a, #aboutbtn a, #resumebtn a {
 	text-decoration: none;
