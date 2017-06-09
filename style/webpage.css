@@ -68,6 +68,7 @@ a {
 
 #chimeheader {
 	top: 0;
+	left: 0;
 	position: relative;
 	display: flex;
 	height: 85px;
@@ -86,9 +87,6 @@ a {
 	z-index: -2;
 }
 
-#emptyblock {
-	width: 23%;
-}
 
 #mollyicon {
 	height: 70px;
@@ -98,6 +96,10 @@ a {
 	display: flex;
 	width: 45%;
 	justify-content: center;
+}
+
+#emptyblock {
+	width: 20%;
 }
 
 #workbtn, #aboutbtn, #resumebtn {

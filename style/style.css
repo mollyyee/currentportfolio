@@ -1,5 +1,109 @@
 /*index blocking*/
 
+#aboutcontainer {
+	padding-top: 10%;
+	margin-top: 5%;
+	margin: auto;
+	width: 80%;
+}
+
+#aboutcontainernopadding {
+	margin:  auto;
+	width: 80%;
+}
+#abouthalf {
+	width: 40%;
+
+}
+
+#one {
+	display: block;
+} 
+
+#two, #three {
+	display: none;
+}
+
+.aboutsubtitle:hover {
+	border-bottom-color: #e29589;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+#rightabouthalf {
+	width: 60%;
+	padding-left: 5%;
+	margin: auto;
+}
+
+
+.aboutintrofont {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: .06em;
+    line-height: 1em;
+    font-weight: 600;
+    color: #e29589;
+}
+
+.aboutintrofont {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: .06em;
+    line-height: 1em;
+    font-weight: 600;
+    color: #e29589;
+}
+.aboutsubtitle {
+	cursor: pointer;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 300;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    letter-spacing: .05em;
+    line-height: 1em;
+    color: #878182;
+  	padding-bottom: .1em;
+   }
+
+#aboutmespecialfont {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    line-height: 1em;
+    color: #e29589;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #e29589;
+
+}
+
+/*#aboutone.aboutsubtitle:hover {
+	 border-bottom: 2px solid #e29589;
+  border-left: 0;
+  -webkit-transform-origin: 0% 100%;
+}
+
+
+#aboutone.aboutsubtitle::before {
+  border-bottom: 2px solid #e29589;
+  border-left: 0;
+  -webkit-transform-origin: 0% 100%;
+}
+
+#aboutone.aboutsubtitle::after {
+  border-top: 0;
+  border-right: 0;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1);
+}*/
+
+
+
 
 
 
