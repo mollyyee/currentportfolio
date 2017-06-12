@@ -96,6 +96,10 @@ a {
 	display: flex;
 	width: 45%;
 	justify-content: center;
+	right: 0;
+	height: 100%;
+	padding-left: 15%;
+
 }
 
 #emptyblock {
@@ -129,6 +133,7 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -310,7 +315,7 @@ p, ul {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
-	font-size: 80px;
+	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
@@ -552,24 +557,10 @@ p, ul {
 	border-left: 6px solid #D1C4E9;
 }
 
-#video {
-	position: absolute;
-	top: 17%;
-	width: 80%;
-	margin: auto;
-	z-index: -1;
-}
-
-#video2 {
-	width: 80%;
-	top: 0%;
-	position: absolute;
-	z-index: -1;
-}
 
 .vidbox {
 	width: 100%;
-	display: block;
+	display: flex;
 
 }
 
@@ -579,19 +570,6 @@ p, ul {
 }
 
 
-/*.vidbox {
-	width: 100%;
-	background-color: blue;
-	height: 10%;
-	position: absolute;
-}
-
-.vidtext {
-	background-color: yellow;
-	width: 40%;
-	float: right;
-	position: relative;
-}*/
 
 .vidcontainer {
 	display: block;
@@ -693,6 +671,10 @@ a {
 	display: flex;
 	width: 45%;
 	justify-content: center;
+	right: 0;
+	height: 100%;
+	padding-left: 15%;
+
 }
 
 #workbtn, #aboutbtn, #resumebtn {
@@ -722,6 +704,8 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
+
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -1300,8 +1284,10 @@ a {
 	display: flex;
 	width: 45%;
 	height: 100%;
-	right: 0;
 	justify-content: center;
+	right: 0;
+	padding-left: 15%;
+
 }
 
 #workbtn, #aboutbtn, #resumebtn {
@@ -1331,6 +1317,7 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -1522,7 +1509,7 @@ p, ul {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
-	font-size: 80px;
+	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
@@ -1915,8 +1902,10 @@ a {
 	display: flex;
 	width: 40%;
 	height: 100%;
-	right: 0;
 	justify-content: center;
+	right: 0;
+	padding-left: 15%;
+
 }
 
 #workbtn, #aboutbtn, #resumebtn {
@@ -1948,6 +1937,8 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
+
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -2139,7 +2130,7 @@ p, ul {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
-	font-size: 80px;
+	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
@@ -2551,8 +2542,10 @@ a {
 	display: flex;
 	width: 50%;
 	height: 100%;
-	right: 0;
 	justify-content: center;
+	right: 0;
+	padding-left: 15%;
+
 }
 
 #workbtn, #aboutbtn, #resumebtn {
@@ -2583,6 +2576,8 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
+
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -2765,7 +2760,7 @@ p, ul {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
-	font-size: 80px;
+	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
@@ -3158,8 +3153,9 @@ a {
 	display: flex;
 	width: 50%;
 	height: 100%;
-	right: 0;
 	justify-content: center;
+	right: 0;
+	padding-left: 15%;
 }
 
 #workbtn, #aboutbtn, #resumebtn {
@@ -3190,6 +3186,8 @@ a {
 
 #button {
 	color: #e29589;
+	font-weight: 350;
+
 }
 
 /*footer*//*footer*//*footer*//*footer*/
@@ -3351,6 +3349,7 @@ p, ul {
 	height: 40%;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
 #paddingintro { 
@@ -3373,7 +3372,7 @@ p, ul {
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
-	font-size: 80px;
+	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
@@ -3638,9 +3637,7 @@ p, ul {
 }
 
 .vidbox {
-	width: 100%;
-	display: block;
-
+	height: 50%;
 }
 
 .vidtext {

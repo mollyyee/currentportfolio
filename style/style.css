@@ -36,6 +36,9 @@
 	margin: auto;
 }
 
+#intro {
+	flex-direction: column;
+}
 
 .aboutintrofont {
 	font-family: 'Mukta Vaani', sans-serif;
@@ -104,52 +107,23 @@
 
 
 
-
-
-
-#navbar {
-	padding-left: 15%;
-	display: flex;
-	width: 70%;
-	height: 100%;
-	justify-content: center;
+#titleunderline {
+	border-bottom: 3px solid #D1C4E9;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif; 
+	letter-spacing: 5px;
+	font-size: 60px;
+	z-index: 1;
+	color: #607D8B;
+	padding: 1em 2em 0 2em;
+	text-align: center;
 }
 
-#worknav {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	display: flex;
-	height: 85px;
-	justify-content: center;
+.box1 {
+	padding: 90px 2% 2% 2%;
+
 }
 
-#workbtn, #aboutbtn, #resumebtn {
-	font-family: 'Lato', sans-serif;
-	font-weight: 200;
-	margin-right: 75px;
-	margin-left: 75px;
-	margin-top: 10px;
-}
-
-#workbtn a, #aboutbtn a, #resumebtn a {
-	text-decoration: none;
-	color: black;
-}
-
-#workbtn:hover a, #aboutbtn:hover a, #resumebtn:hover a {
-	color: #e29589;
-	cursor: pointer;
-	transition: 0.2s;
-}
-
-#highlightbutton {
-	color: #e29589;
-	font-family: 'Lato', sans-serif;
-	font-weight: 200;
-	margin-right: 75px;
-	margin-left: 75px;
-	margin-top: 10px;
-}
 
 #projects, #internships {
 	width: 100%;
@@ -168,7 +142,10 @@ margin: auto;
 position: relative;
 }
 
-
+.vidbox {
+	height: 60%;
+	left: 0;	
+}
 
 #websitegif {
 	padding-top: 5%;
@@ -251,11 +228,52 @@ position: relative;
 	margin: auto;
  }
 
-/*Chime*/
-#chimevide {
-	width: 100%;
+ .skillsusedpage {
+ 	margin: auto;
+ 	width: 80%;
+	display: flex;
+	padding: .7em 0 1.5em 0;
 }
 
+/*Chime*/
+
+
+#chimetitle {
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif; 
+	letter-spacing: 5px;
+	font-size: 60px;
+	z-index: 1;
+	color: #607D8B;
+	padding: .2em .2em 0 0;
+ }
+
+#chimedescription {
+	margin: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+ 	padding: 1em 0 1.5em 0;
+ 	color: #607D8B;
+ 	text-align: center;
+}
+.roletext {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.5em;
+    padding: 1.5em 0 0 0;
+    padding-left: .4em;
+    letter-spacing: .1em;
+    line-height: 1em;
+    margin: auto;
+}
+
+#lefttimeframe {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-size: 24px;
+	padding: .2em 0 .2em 0;
+	letter-spacing: 5px;
+	color: #607D8B;
+}
 
 
 
@@ -298,15 +316,6 @@ position: relative;
 
 @media screen and (max-width: 650px) {
 
-#header {
-	top: 0;
-	position: fixed;
-	display: flex;
-	width: 100%;
-	padding-left: 4%;
-	padding-right: 2%;
-	background-color: white;
-}
 
 #nameicon {
 	left: 5%;
@@ -320,13 +329,6 @@ position: relative;
 	top: 0;
 }
 
-#navbar {
-	padding-left: 15%;
-	display: flex;
-	width: 70%;
-	height: 100%;
-	justify-content: center;
-}
 
 #worknav {
 	padding-top: 5%;
