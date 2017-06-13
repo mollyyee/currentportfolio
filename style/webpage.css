@@ -289,10 +289,12 @@ p, ul {
 }*/
 
 #intro { 
+	margin: auto;
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
+	width: 60%;
 }
 
 #paddingintro { 
@@ -862,9 +864,12 @@ p, ul {
 
 #intro { 
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
+	width: 60%;
+	margin: auto;
+
 }
 
 #paddingintro { 
@@ -1484,9 +1489,11 @@ p, ul {
 
 #intro { 
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
+	width: 60%;
+	margin: auto;
 }
 
 #paddingintro { 
@@ -2105,9 +2112,12 @@ p, ul {
 
 #intro { 
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
+	width: 60%;
+	margin: auto;
+
 }
 
 #paddingintro { 
@@ -2735,9 +2745,12 @@ p, ul {
 
 #intro { 
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
+	width: 60%;
+	margin: auto;
+
 }
 
 #paddingintro { 
@@ -3346,10 +3359,13 @@ p, ul {
 
 #intro { 
 	top: 0%;
-	height: 40%;
+	height: 60%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	width: 60%;
+	margin: auto;
+
 }
 
 #paddingintro { 

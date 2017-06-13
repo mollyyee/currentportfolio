@@ -1,10 +1,31 @@
 /*index blocking*/
 
+
+.boldedfontnc {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0em;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+#chimebolded {
+    color: #B39DDB;
+}
+
+#snickerbolded {
+    color: #81C784;
+}
 #aboutcontainer {
 	padding-top: 10%;
 	margin-top: 5%;
 	margin: auto;
 	width: 80%;
+}
+
+.interviewunderline {
+	border-bottom: 1px solid #C8E6C9;
+	display: flex;
 }
 
 #aboutcontainernopadding {
@@ -105,10 +126,74 @@
   -webkit-transform: scale(1);
 }*/
 
+.headshot {
+	width: 75px;
+}
 
+.interviewname {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.5em;
+    padding-top: .4em;
+    letter-spacing: .1em;
+    line-height: 1em;
+}
 
-#titleunderline {
-	border-bottom: 3px solid #D1C4E9;
+.interviewcards {
+	padding: 0 0 2em 0;
+	width: 90%;
+}
+
+.column25 {
+	width: 25%;
+}
+
+#horizontal.flexcontainer {
+	flex-direction: row;
+}
+#interviewcaption {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: .8em;
+    letter-spacing: .1em;
+    line-height: .3em;
+}
+
+#interviewlearnings {
+	top: 0;
+	padding: 0 1em;
+	margin-top: 0;
+}
+.headercolumn {
+	border-left: 6px solid;
+}
+
+#chimecolumn.headercolumn {
+	border-left-color: #D1C4E9;
+}
+
+#snickercolumn.headercolumn {
+	border-left-color: #C8E6C9;
+}
+
+.boldedfont {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0em;
+    line-height: 1.7em;
+    font-weight: 600;
+    color: #B39DDB;
+	text-align: center;
+}
+
+#halfcolumns {
+	margin: auto;
+}
+#snickerboldedfont.boldedfont {
+	color: #81C784;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.titleunderline {
 	margin: auto;
 	font-family: 'Josefin Sans', sans-serif; 
 	letter-spacing: 5px;
@@ -117,6 +202,14 @@
 	color: #607D8B;
 	padding: 1em 2em 0 2em;
 	text-align: center;
+}
+
+#chimeline.titleunderline {
+	border-bottom: 3px solid #D1C4E9;
+}
+
+#snickerline.titleunderline {
+	border-bottom: 3px solid #C8E6C9;
 }
 
 .box1 {
@@ -235,6 +328,14 @@ position: relative;
 	padding: .7em 0 1.5em 0;
 }
 
+ .skillsusedpageskinny {
+ 	margin: auto;
+ 	width: 30%;
+	display: flex;
+	padding: .7em 0 1.5em 0;
+}
+
+
 /*Chime*/
 
 
@@ -265,6 +366,7 @@ position: relative;
     letter-spacing: .1em;
     line-height: 1em;
     margin: auto;
+    text-align: center;
 }
 
 #lefttimeframe {
