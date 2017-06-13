@@ -59,8 +59,15 @@
 
 #intro {
 	flex-direction: column;
+	margin: auto;
+	display: flex;
 }
 
+#intropadding{
+	flex-direction: column;
+	margin: auto;
+	display: flex;
+}
 .aboutintrofont {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 2.5em;
@@ -200,8 +207,8 @@
 	font-size: 60px;
 	z-index: 1;
 	color: #607D8B;
-	padding: 1em 2em 0 2em;
 	text-align: center;
+	padding: 1em 2em 0 2em;
 }
 
 #chimeline.titleunderline {
@@ -353,20 +360,11 @@ position: relative;
 	padding: .2em .2em 0 0;
  }
 
-#chimedescription {
-	margin: auto;
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	letter-spacing: 2px;
- 	padding: 1em 0 1.5em 0;
- 	color: #607D8B;
- 	text-align: center;
-}
+
 .roletext {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 1.5em;
     padding: 1.5em 0 0 0;
-    padding-left: .4em;
     letter-spacing: .1em;
     line-height: 1em;
     margin: auto;
