@@ -1,6 +1,22 @@
 /*index blocking*/
 
 
+.linesubtitle {
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2em;
+    padding-top: .8em;
+    padding-left: .4em;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    color: #575757;
+}
+
+#halfcolumnsnopaddingcenter {
+	width: 50%;
+	top: 0;
+	margin: auto;
+}
+
 .boldedfontnc {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 1.5em;
@@ -67,6 +83,9 @@
 	flex-direction: column;
 	margin: auto;
 	display: flex;
+	width: 90%;
+	padding-top: 2em;
+	padding-left: 8%;
 }
 .aboutintrofont {
 	font-family: 'Mukta Vaani', sans-serif;
@@ -137,6 +156,13 @@
 	width: 75px;
 }
 
+.vidboxflexstack {
+	padding: 2% 2% 2% 2%;
+	position: relative;
+	height: 500px;
+	display: flex;
+}
+
 .interviewname {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 1.5em;
@@ -182,14 +208,24 @@
 }
 
 .boldedfont {
-	font-family: 'Mukta Vaani', sans-serif;
-    font-size: 1.1em;
-    letter-spacing: 0em;
-    line-height: 1.7em;
-    font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	line-height: 1.3em;
     color: #B39DDB;
-	text-align: center;
+    text-align: left;
 }
+
+.boldedfontnocolor {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.3em;
+    color: #575757;
+    text-align: center;
+    padding-top: 5em;
+}
+
 
 #halfcolumns {
 	margin: auto;
@@ -198,6 +234,18 @@
 	color: #81C784;
 	font-weight: 400;
 	font-size: 1.5em;
+}
+
+
+#title {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+
+#description {
+	font-size: 20px;
 }
 
 .titleunderline {
@@ -223,9 +271,20 @@
 	border-bottom: 3px solid #EF9A9A;
 }
 
-.box1 {
-	padding: 90px 2% 2% 2%;
+#websiteline.titleunderline {
+	border-bottom: 3px solid #e29589;
+}
 
+
+.box1 {
+	padding: 100px 2% 2% 2%;
+	display: flex;
+}
+
+.titlebox {
+	padding: 100px 2% 2% 2%;
+	display: flex;
+	height: 30%;
 }
 
 
@@ -246,10 +305,7 @@ margin: auto;
 position: relative;
 }
 
-.vidbox {
-	height: 60%;
-	left: 0;	
-}
+
 
 #websitegif {
 	padding-top: 5%;
@@ -577,6 +633,14 @@ position: relative;
 	width: 100%;
 }
 
+.leastmargin {
+	padding: 10% 5% 10% 5%;
+	margin-left: 100px;
+	float: top;
+	position: relative;
+	overflow: auto;
+	background-color: red;
+}
 
 
 

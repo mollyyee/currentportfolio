@@ -315,9 +315,9 @@ p, ul {
  #title {
 	margin: auto;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif; 
-	letter-spacing: 5px;
-	font-size: 60px;
+	font-family: 'Open Sans', sans-serif; 
+	letter-spacing: 3px;
+	font-size: 70px;
 	z-index: 1;
 	color: #607D8B;
 	padding: .2em 0 .2em 0;
