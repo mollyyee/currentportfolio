@@ -1,6 +1,11 @@
 /*index blocking*/
 
 
+/*footer*/
+#bottomborder {
+	height: 200px;
+}
+
 .linesubtitle {
 	font-family: 'Mukta Vaani', sans-serif;
     font-size: 2em;
