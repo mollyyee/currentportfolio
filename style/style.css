@@ -3,7 +3,11 @@
 
 /*footer*/
 #bottomborder {
-	height: 200px;
+	height: 100px;
+}
+
+#footer {
+	margin: 5em;
 }
 
 .linesubtitle {
@@ -90,7 +94,6 @@
 	display: flex;
 	width: 90%;
 	padding-top: 2em;
-	padding-left: 8%;
 }
 .aboutintrofont {
     font-family: 'Mukta Vaani', sans-serif;
