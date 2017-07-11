@@ -93,69 +93,28 @@
 	padding-left: 8%;
 }
 .aboutintrofont {
-	font-family: 'Mukta Vaani', sans-serif;
-    font-size: 2.5em;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.8em;
     letter-spacing: .06em;
-    line-height: 1em;
+    line-height: 1.6em;
     font-weight: 600;
-    color: #e29589;
-}
-
-.aboutintrofont {
-	font-family: 'Mukta Vaani', sans-serif;
-    font-size: 2.5em;
-    letter-spacing: .06em;
-    line-height: 1em;
-    font-weight: 600;
-    color: #e29589;
-}
-.aboutsubtitle {
-	cursor: pointer;
-	font-family: 'Mukta Vaani', sans-serif;
-	font-weight: 300;
-    font-size: 1.5em;
-    margin-top: 1.5em;
-    letter-spacing: .05em;
-    line-height: 1em;
-    color: #878182;
-  	padding-bottom: .1em;
-   }
+    color: #E64A19;
+/*    #e29589;
+*/}
 
 #aboutmespecialfont {
-	font-family: 'Mukta Vaani', sans-serif;
-	font-weight: 300;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 300;
     font-size: 1.1em;
     letter-spacing: .05em;
-    line-height: 1em;
-    color: #e29589;
-   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    line-height: 1.4em;
+    color: #E64A19;
+   -webkit-text-fill-color: white; 
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #e29589;
-
-}
-
-/*#aboutone.aboutsubtitle:hover {
-	 border-bottom: 2px solid #e29589;
-  border-left: 0;
-  -webkit-transform-origin: 0% 100%;
 }
 
 
-#aboutone.aboutsubtitle::before {
-  border-bottom: 2px solid #e29589;
-  border-left: 0;
-  -webkit-transform-origin: 0% 100%;
-}
-
-#aboutone.aboutsubtitle::after {
-  border-top: 0;
-  border-right: 0;
-  -webkit-transform-origin: 50% 50%;
-}
-
-.box:hover::after, .box:hover::before {
-  -webkit-transform: scale(1);
-}*/
 
 .headshot {
 	width: 75px;
@@ -286,6 +245,10 @@
 	display: flex;
 }
 
+.aboutbox {
+	padding: 100px 2% 2% 2%;
+}
+
 .titlebox {
 	padding: 100px 2% 100px 2%;
 	display: flex;
@@ -386,19 +349,20 @@ position: relative;
 	display: flex;
 }
 
+
 .skillsquare { 
-	z-index: 1;
-	height: 20px;
-	width: 20px;
-	margin: auto;
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    margin-right: 3em;
  }
 
  .skillsusedpage {
- 	margin: auto;
- 	width: 80%;
-	display: flex;
-	padding: .7em 0 1.5em 0;
+    width: 50%;
+    display: flex;
+    padding: 2em 0 2em 0;
 }
+
 
  .skillsusedpageskinny {
  	margin: auto;
@@ -626,12 +590,6 @@ position: relative;
 	display: flex;
 }
 
-.skillsquare { 
-	z-index: 1;
-	height: 20px;
-	width: 20px;
-	margin: auto;
- }
 
 /*Chime*/
 #chimevide {
